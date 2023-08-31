@@ -47,6 +47,14 @@ function ListBooks() {
     </div>
   );
 }
-
+<div>
+  <script type="text/javascript">
+    var infolinks_pid = 22693; var infolinks_wsid = 0;
+  </script>
+  <script
+    type="text/javascript"
+    src="//resources.infolinks.com/js/infolinks_main.js"
+  ></script>
+</div>;
 export default ListBooks;
 export { bookData };

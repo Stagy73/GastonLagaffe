@@ -4,3 +4,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.divfooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

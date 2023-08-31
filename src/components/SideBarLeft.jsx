@@ -24,7 +24,7 @@ const SlideshowWithAds = () => {
     return () => {
       clearInterval(interval);
     };
-  }, [images]); // Add images to the dependency array
+  }, [images]);
 
   return (
     <div className="slideshow-container">
@@ -36,11 +36,7 @@ const SlideshowWithAds = () => {
           }`}
         >
           {index === currentImageIndex && (
-            <img
-              src={image}
-              alt={`Image ${index}`}
-              style={{ maxWidth: "400px", maxHeight: "400px" }}
-            />
+            <img src={image} alt={`Image ${index}`} />
           )}
         </div>
       ))}

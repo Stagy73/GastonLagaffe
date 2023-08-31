@@ -17,8 +17,8 @@ describe("Slideshow with Ads", () => {
     // Iterate through each slideshow image and check dimensions
     cy.get(".slideshow-image img").each((image) => {
       cy.wrap(image)
-        .should("have.attr", "width", "200")
-        .should("have.attr", "height", "200");
+        .should("have.attr", "width", "400px")
+        .should("have.attr", "height", "400px");
     });
 
     // Assert the ad components exist

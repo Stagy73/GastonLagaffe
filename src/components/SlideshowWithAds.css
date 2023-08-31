@@ -14,3 +14,7 @@
 .slideshow-image.visible {
   display: block; /* Display only the visible image */
 }
+img {
+  width: 400px;
+  height: 400px;
+}
