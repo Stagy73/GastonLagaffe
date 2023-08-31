@@ -1,12 +1,20 @@
 import { useState } from "react";
 import ListBooks from "./components/ListBooks";
+import SlideshowWithAds from "./components/SideBarLeft";
+import ContainerEmpty from "./components/Container";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <ListBooks />
-    </>
+    <div>
+      <div className="mainapp">
+        <ListBooks />
+        <ContainerEmpty />
+        <div>
+          <SlideshowWithAds />
+        </div>
+      </div>
+    </div>
   );
 }
 
