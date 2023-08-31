@@ -3,6 +3,7 @@ import ListBooks from "./components/ListBooks";
 import SlideshowWithAds from "./components/SideBarLeft";
 import ContainerEmpty from "./components/Container";
 import Footer from "./components/Footer";
+import Aff from "./components/aff";
 import "./App.css";
 <div>
   <script type="text/javascript">
@@ -20,7 +21,8 @@ function App() {
         <div className="mainapp">
           <ListBooks />
           <ContainerEmpty />
-          <div>
+          <div className="flexfooteraff">
+            <Aff />
             <SlideshowWithAds />
           </div>
         </div>

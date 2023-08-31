@@ -11,3 +11,10 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.flexfooteraff {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
