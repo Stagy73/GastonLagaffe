@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
+* {
+  box-sizing: border-box;
+  background: rgb(220, 220, 38);
+}
+.logo img {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  list-style: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Oranienbaum", serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.ListBooks,
+.APropos,
+.Contact {
+  color: rgb(3, 118, 3);
+  margin-top: 2rem;
+}

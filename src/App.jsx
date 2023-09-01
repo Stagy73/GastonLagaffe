@@ -1,24 +1,28 @@
-import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ListBooks from "./components/ListBooks";
-import SlideshowWithAds from "./components/SideBarLeft";
-import ContainerEmpty from "./components/Container";
+import Navbar from "./components/Navbar";
+import APropos from "./components/APropos";
+import Contact from "./components/Contact";
+//import SlideshowWithAds from "./components/SideBarLeft";
+//import ContainerEmpty from "./components/Container";
 import Footer from "./components/Footer";
+//import FeedPosts from "./components/aff";
 import Video from "./components/script";
 
 import "./App.css";
-<div></div>;
+import "./components/Navbar.css";
+
 function App() {
   return (
-    <div className="divfooter">
-      <div>
-        <div className="mainapp">
-          <ListBooks />
-          <ContainerEmpty />
-          <div className="flexfooteraff">
-            <SlideshowWithAds />
-          </div>
-        </div>
-      </div>
+
+    <div className="App">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<ListBooks />} />
+        <Route path="/APropos" element={<APropos />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+      <ListBooks />
 
       <Footer />
     </div>

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
+body {
+  background: url("src/assets/gastoncontact2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.container {
+  font-size: 1rem;
+}
+.container input {
+  border-radius: 5px;
+  border: 0.1rem solid rgb(3, 118, 3);
+  font-size: 1.5em;
+  margin: 3% auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.container textarea {
+  border-radius: 5px;
+  border: 0.1rem solid;
+  height: 10rem;
+  font-size: 1.53em;
+  margin: 3% auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.container form > button {
+  width: auto;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+  border-radius: 9px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: rgb(220, 220, 38);
+  background-color: rgb(3, 118, 3);
+  display: flex;
+}
+
+.contact {
+  color: rgb(3, 118, 3);
+  text-align: center;
+  padding: 0.4rem;
+}
+.contact h3 {
+  font-size: 3em;
+  background-color: rgb(3, 118, 3);
+  padding: 1% 4%;
+  color: rgb(220, 220, 38);
+}
+
+.coordinate h4 {
+  font-size: 2.2em;
+  text-align: center;
+  text-decoration: underline;
+}
+.coordinate h5,
+.adresse {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+#pinkButton {
+  margin: 0 auto; /* Ajoutez cette ligne pour centrer horizontalement */
+  display: block; /* Pour que le bouton occupe toute la largeur disponible */
+  width: 10%; /* Réglez la largeur du bouton selon vos préférences */
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+  border-radius: 9px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: rgb(220, 220, 38);
+  background-color: rgb(3, 118, 3);
+}

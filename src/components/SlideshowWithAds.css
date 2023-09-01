@@ -1,18 +1,16 @@
-/* SlideshowWithAds.css */
-
 .slideshow-container {
   margin: 2rem;
 }
 
 .slideshow-image {
-  display: none; /* Hide all images by default */
-  max-width: 400px; /* Set maximum width to 400px */
-  max-height: 400px; /* Set maximum height to 400px */
-  margin: 0 auto; /* Center the image horizontally */
+  display: none;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0 auto;
 }
 
 .slideshow-image.visible {
-  display: block; /* Display only the visible image */
+  display: flex;
 }
 img {
   width: 400px;
