@@ -1,19 +1,17 @@
-// VideoPlayer.js
 import React from "react";
+import YouTube from "react-youtube";
 
 function VideoPlayer({ videoId }) {
-  return (
-    <div>
-      <iframe
-        width="560"
-        height="315"
-        src={`https://www.youtube.com/embed/${videoId}`}
-        title="YouTube video player"
-        frameBorder="0"
-        allowFullScreen
-      ></iframe>
-    </div>
-  );
+  const opts = {
+    height: "390",
+    width: "640",
+    playerVars: {
+      // You can add additional player parameters here
+      autoplay: 0, // Autoplay the video
+    },
+  };
+
+  return <YouTube videoId={videoId} opts={opts} />;
 }
 
 export default VideoPlayer;

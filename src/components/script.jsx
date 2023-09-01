@@ -1,10 +1,9 @@
-///////////////////////////////////////
+/////////////////////////////
 
-// Video.js
+import React, { useState, useEffect } from "react";
 
+import VideoPlayer from "./VideoPlayer";
 const apiKey = import.meta.env.VITE_API_KEY;
-import { useState, useEffect } from "react";
-
 function Video() {
   // Replace with your YouTube Data API key
   const channelId = "UCrcptvCXVgLlieu9pNe0Nqg"; // Replace with the channel ID
@@ -33,34 +32,17 @@ function Video() {
       <div className="column" id="column1">
         {column1Videos.map((video, index) => (
           <div key={index}>
-            <a
-              href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={video.snippet.thumbnails.medium.url}
-                alt={video.snippet.title}
-              />
-              <p>{video.snippet.title}</p>
-            </a>
+            <VideoPlayer videoId={video.id.videoId} />{" "}
+            {/* Use the VideoPlayer component */}
+            {/*  */}
           </div>
         ))}
       </div>
       <div className="column" id="column2">
         {column2Videos.map((video, index) => (
           <div key={index}>
-            <a
-              href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={video.snippet.thumbnails.medium.url}
-                alt={video.snippet.title}
-              />
-              <p>{video.snippet.title}</p>
-            </a>
+            <VideoPlayer videoId={video.id.videoId} />{" "}
+            {/* Use the VideoPlayer component */}
           </div>
         ))}
       </div>
