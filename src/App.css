@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20rem;
+  margin-bottom: 5rem;
 }
 
 .divfooter {
@@ -19,5 +19,19 @@
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
+=======
+
+.containerVideo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 30px;
+  gap: 30 px;
+}
+p {
+  row-gap: 30px;
+}
+>>>>>>> origin/main
