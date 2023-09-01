@@ -5,10 +5,10 @@ import APropos from "./components/APropos";
 import Contact from "./components/Contact";
 import "./components/Navbar.css";
 
-import SlideshowWithAds from "./components/SideBarLeft";
+//import SlideshowWithAds from "./components/SideBarLeft";
 import ContainerEmpty from "./components/Container";
 import Footer from "./components/Footer";
-import Video from "./components/script";
+//import Video from "./components/script";
 
 import "./App.css";
 

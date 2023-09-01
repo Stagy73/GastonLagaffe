@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 .mainapp {
   display: flex;
   flex-direction: row;
@@ -19,10 +18,6 @@
   justify-content: center;
   align-items: center;
 }
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-=======
 
 .containerVideo {
   display: flex;
@@ -34,4 +29,3 @@
 p {
   row-gap: 30px;
 }
->>>>>>> origin/main
