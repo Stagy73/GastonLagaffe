@@ -1,10 +1,12 @@
 ///////////////////////////////////////
 
 // Video.js
-import React, { useState, useEffect } from "react";
+
+const apiKey = import.meta.env.VITE_API_KEY;
+import { useState, useEffect } from "react";
 
 function Video() {
-  const apiKey = "AIzaSyBjRypU1PzBlrkv2V4o2Ijo6R6EHKOKMeo"; // Replace with your YouTube Data API key
+  // Replace with your YouTube Data API key
   const channelId = "UCrcptvCXVgLlieu9pNe0Nqg"; // Replace with the channel ID
   const searchKeyword = "Gaston Lagaffe"; // Keyword to filter videos
   const maxResults = 10; // Number of videos to display
