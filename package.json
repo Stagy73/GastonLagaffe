@@ -16,12 +16,9 @@
     "node": "^20.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
     "react-router-dom": "^6.15.0",
-    "router-dom": "^2.2.11"
-=======
+    "router-dom": "^2.2.11",
     "react-youtube": "^10.1.0"
->>>>>>> origin/main
   },
   "devDependencies": {
     "@cypress/react": "^8.0.0",

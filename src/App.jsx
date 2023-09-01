@@ -25,12 +25,9 @@ function App() {
           </Routes>
 
           <ContainerEmpty />
-          <div className="flexfooteraff">
-            <SlideshowWithAds />
-          </div>
+          <div className="flexfooteraff"></div>
         </div>
       </div>
-      <Video />
 
       <Footer />
     </div>

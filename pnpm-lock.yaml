@@ -23,18 +23,15 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
-<<<<<<< HEAD
   react-router-dom:
     specifier: ^6.15.0
     version: 6.15.0(react-dom@18.2.0)(react@18.2.0)
-  router-dom:
-    specifier: ^2.2.11
-    version: 2.2.11
-=======
   react-youtube:
     specifier: ^10.1.0
     version: 10.1.0(react@18.2.0)
->>>>>>> origin/main
+  router-dom:
+    specifier: ^2.2.11
+    version: 2.2.11
 
 devDependencies:
   '@cypress/react':
@@ -2676,7 +2673,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-<<<<<<< HEAD
   /react-router-dom@6.15.0(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-aR42t0fs7brintwBGAv2+mGlCtgtFQeOzK0BM1/OiqEzRejOZtpMZepvgkscpMUnKb8YO84G7s3LsHnnDNonbQ==}
     engines: {node: '>=14.0.0'}
@@ -2698,7 +2694,8 @@ packages:
     dependencies:
       '@remix-run/router': 1.8.0
       react: 18.2.0
-=======
+    dev: false
+
   /react-youtube@10.1.0(react@18.2.0):
     resolution: {integrity: sha512-ZfGtcVpk0SSZtWCSTYOQKhfx5/1cfyEW1JN/mugGNfAxT3rmVJeMbGpA9+e78yG21ls5nc/5uZJETE3cm3knBg==}
     engines: {node: '>= 14.x'}
@@ -2711,7 +2708,6 @@ packages:
       youtube-player: 5.5.2
     transitivePeerDependencies:
       - supports-color
->>>>>>> origin/main
     dev: false
 
   /react@18.2.0:
