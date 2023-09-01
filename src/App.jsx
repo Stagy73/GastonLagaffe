@@ -3,7 +3,8 @@ import ListBooks from "./components/ListBooks";
 import SlideshowWithAds from "./components/SideBarLeft";
 import ContainerEmpty from "./components/Container";
 import Footer from "./components/Footer";
-import FeedPosts from "./components/aff";
+import Video from "./components/script";
+
 import "./App.css";
 <div></div>;
 function App() {
@@ -18,7 +19,8 @@ function App() {
           </div>
         </div>
       </div>
-      <FeedPosts />
+      <Video />
+
       <Footer />
     </div>
   );

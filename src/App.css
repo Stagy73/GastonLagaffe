@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20rem;
+  margin-bottom: 5rem;
 }
 
 .divfooter {
@@ -17,4 +17,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.containerVideo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 30px;
+  gap: 30 px;
 }
