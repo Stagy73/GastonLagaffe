@@ -101,7 +101,7 @@ const bookData = [
     title: "Gaffes à Lagaffe",
     fileLink: "./15.cbr",
   },
-  { imgSrc: "url_image_00.jpg", title: "N19", fileLink: "./16.cbr" },
+  { imgSrc: "", title: "N19", fileLink: "./16.cbr" },
   {
     imgSrc: "src/assets/Gaston et le Marsipulami.jpg",
     title: "HS Gaston et le marsupilami",

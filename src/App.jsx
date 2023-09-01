@@ -7,14 +7,14 @@ import Contact from "./components/Contact";
 //import ContainerEmpty from "./components/Container";
 import Footer from "./components/Footer";
 //import FeedPosts from "./components/aff";
-import Video from "./components/script";
-
+//import Video from "./components/script";
+import "./components/Contact.css";
+import "./components/ListBooks.css";
 import "./App.css";
 import "./components/Navbar.css";
 
 function App() {
   return (
-
     <div className="App">
       <Navbar />
       <Routes>
@@ -22,7 +22,6 @@ function App() {
         <Route path="/APropos" element={<APropos />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
-      <ListBooks />
 
       <Footer />
     </div>

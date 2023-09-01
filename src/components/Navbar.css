@@ -5,6 +5,8 @@
 }
 .logo img {
   width: 100%;
+  max-height: 20rem;
+  border-radius: 5rem;
 }
 .navbar {
   display: flex;
@@ -25,5 +27,5 @@
 .APropos,
 .Contact {
   color: rgb(3, 118, 3);
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
